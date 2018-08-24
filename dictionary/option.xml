@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Needit" max_length="40" name="option" type="collection">
+        <element label="New Due Date" max_length="40" name="x_58872_needit_u_due_date_6" type="due_date"/>
+        <element label="New Date" max_length="40" name="x_58872_needit_u_glide_date_1" type="glide_date"/>
+        <element label="New Icon" max_length="100" name="x_58872_needit_u_icon_7" type="icon"/>
+        <element label="New Integer" max_length="40" name="x_58872_needit_u_integer_5" type="integer"/>
+        <element label="Requested for" max_length="32" name="x_58872_needit_u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" max_length="40" name="x_58872_needit_u_request_type" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="x_58872_needit_u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" max_length="40" name="x_58872_needit_u_what_needed" type="string">
+            <choice/>
+        </element>
+        <element label="When needed" max_length="40" name="x_58872_needit_u_when_needed" type="glide_date_time"/>
+    </element>
+</database>
